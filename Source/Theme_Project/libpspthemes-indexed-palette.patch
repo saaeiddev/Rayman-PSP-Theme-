@@ -1,0 +1,34 @@
+diff --git a/gim.py b/gim.py
+index ba068a5..41770cd 100644
+--- a/gim.py
++++ b/gim.py
+@@ -57,21 +57,16 @@ def png2gim(data, args):
+     
+     def encode_image_data_rgba_palette(im, gim_pixel_order):
+         im_pixels = encode_image_data_rgba(im, gim_pixel_order)
+-        im_pixels_palette = list(im.getpalette())
+-        
++        rgb = list(im.getpalette() or [])
++        transparency = im.info.get('transparency', b'')
++        if isinstance(transparency, int):
++            transparency = bytes(0 if i == transparency else 255 for i in range(256))
+         pixels_palette = [[0] * 256]
+-        pos = 0
+-        y = 0
+         for x in range(256):
+-            if pos < len(im_pixels_palette):
+-                if isinstance(im_pixels[pos], int):
+-                    pixels_palette[y][x] = im_pixels_palette[pos]
+-                else:
+-                    pixels_palette[y][x] = int.from_bytes(bytes(im_pixels_palette[pos]), byteorder='little')
+-            else:
+-                pixels_palette[y][x] = 0
+-            pos += 1
+-        
++            r, g, b = (rgb[x*3:x*3+3] + [0, 0, 0])[:3]
++            alpha = transparency[x] if x < len(transparency) else 255
++            pixels_palette[0][x] = int.from_bytes(bytes((r, g, b, alpha)), 'little')
++
+         return im_pixels, pixels_palette
+     
+     def px2by_arr(px, w, h, bpp):

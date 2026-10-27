@@ -1,0 +1,463 @@
+{
+  "name": "Rayman Raving Rabbids",
+  "file_name": "RABBIDS_UNIVERSAL",
+  "psp_version": "6.20",
+  "version": "1.0",
+  "value8": 8,
+  "categories": {
+    "0": {
+      "0": {
+        "file_type": 5,
+        "file_name": "0_0000.gim",
+        "file_length": 1556,
+        "file_comp": 2
+      },
+      "1": {
+        "file_type": 5,
+        "file_name": "0_0001.gim",
+        "file_length": 204196,
+        "file_comp": 2
+      },
+      "2": {
+        "file_type": -1,
+        "file_data": 8,
+        "file_length": 4,
+        "file_comp": 0
+      }
+    },
+    "1": {
+      "0": {
+        "file_type": 4,
+        "file_name": "1_0000.bmp",
+        "file_length": 391734,
+        "file_comp": 2
+      }
+    },
+    "2": {
+      "1": {
+        "file_type": 5,
+        "file_name": "2_0001.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "2": {
+        "file_type": 5,
+        "file_name": "2_0002.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "3": {
+        "file_type": 5,
+        "file_name": "2_0003.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "4": {
+        "file_type": 5,
+        "file_name": "2_0004.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "6": {
+        "file_type": 5,
+        "file_name": "2_0006.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "7": {
+        "file_type": 5,
+        "file_name": "2_0007.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "8": {
+        "file_type": 5,
+        "file_name": "2_0008.gim",
+        "file_length": 4364,
+        "file_comp": 2
+      },
+      "5": {
+        "file_type": 5,
+        "file_name": "2_0005.gim",
+        "file_comp": 2
+      }
+    },
+    "3": {
+      "2": {
+        "file_type": 5,
+        "file_name": "3_0002.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "3": {
+        "file_type": 5,
+        "file_name": "3_0003.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "4": {
+        "file_type": 5,
+        "file_name": "3_0004.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "5": {
+        "file_type": 5,
+        "file_name": "3_0005.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "6": {
+        "file_type": 5,
+        "file_name": "3_0006.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "7": {
+        "file_type": 5,
+        "file_name": "3_0007.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "8": {
+        "file_type": 5,
+        "file_name": "3_0008.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "9": {
+        "file_type": 5,
+        "file_name": "3_0009.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "10": {
+        "file_type": 5,
+        "file_name": "3_0010.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "11": {
+        "file_type": 5,
+        "file_name": "3_0011.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "12": {
+        "file_type": 5,
+        "file_name": "3_0012.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "13": {
+        "file_type": 5,
+        "file_name": "3_0013.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "14": {
+        "file_type": 5,
+        "file_name": "3_0014.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "15": {
+        "file_type": 5,
+        "file_name": "3_0015.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "16": {
+        "file_type": 5,
+        "file_name": "3_0016.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "17": {
+        "file_type": 5,
+        "file_name": "3_0017.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "18": {
+        "file_type": 5,
+        "file_name": "3_0018.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "19": {
+        "file_type": 5,
+        "file_name": "3_0019.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "20": {
+        "file_type": 5,
+        "file_name": "3_0020.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "21": {
+        "file_type": 5,
+        "file_name": "3_0021.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "22": {
+        "file_type": 5,
+        "file_name": "3_0022.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "23": {
+        "file_type": 5,
+        "file_name": "3_0023.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "24": {
+        "file_type": 5,
+        "file_name": "3_0024.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "25": {
+        "file_type": 5,
+        "file_name": "3_0025.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "26": {
+        "file_type": 5,
+        "file_name": "3_0026.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "27": {
+        "file_type": 5,
+        "file_name": "3_0027.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "28": {
+        "file_type": 5,
+        "file_name": "3_0028.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "29": {
+        "file_type": 5,
+        "file_name": "3_0029.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "30": {
+        "file_type": 5,
+        "file_name": "3_0030.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "31": {
+        "file_type": 5,
+        "file_name": "3_0031.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "32": {
+        "file_type": 5,
+        "file_name": "3_0032.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "33": {
+        "file_type": 5,
+        "file_name": "3_0033.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "34": {
+        "file_type": 5,
+        "file_name": "3_0034.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "35": {
+        "file_type": 5,
+        "file_name": "3_0035.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "36": {
+        "file_type": 5,
+        "file_name": "3_0036.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "37": {
+        "file_type": 5,
+        "file_name": "3_0037.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "38": {
+        "file_type": 5,
+        "file_name": "3_0038.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "39": {
+        "file_type": 5,
+        "file_name": "3_0039.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "40": {
+        "file_type": 5,
+        "file_name": "3_0040.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "41": {
+        "file_type": 5,
+        "file_name": "3_0041.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "42": {
+        "file_type": 5,
+        "file_name": "3_0042.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "43": {
+        "file_type": 5,
+        "file_name": "3_0043.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "44": {
+        "file_type": 5,
+        "file_name": "3_0044.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "45": {
+        "file_type": 5,
+        "file_name": "3_0045.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "46": {
+        "file_type": 5,
+        "file_name": "3_0046.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "47": {
+        "file_type": 5,
+        "file_name": "3_0047.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "48": {
+        "file_type": 5,
+        "file_name": "3_0048.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "49": {
+        "file_type": 5,
+        "file_name": "3_0049.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "50": {
+        "file_type": 5,
+        "file_name": "3_0050.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "51": {
+        "file_type": 5,
+        "file_name": "3_0051.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "52": {
+        "file_type": 5,
+        "file_name": "3_0052.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "53": {
+        "file_type": 5,
+        "file_name": "3_0053.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "54": {
+        "file_type": 5,
+        "file_name": "3_0054.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "55": {
+        "file_type": 5,
+        "file_name": "3_0055.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "56": {
+        "file_type": 5,
+        "file_name": "3_0056.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "57": {
+        "file_type": 5,
+        "file_name": "3_0057.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      },
+      "58": {
+        "file_type": 5,
+        "file_name": "3_0058.gim",
+        "file_length": 3596,
+        "file_comp": 2
+      },
+      "59": {
+        "file_type": 5,
+        "file_name": "3_0059.gim",
+        "file_length": 5396,
+        "file_comp": 2
+      }
+    },
+    "4": {
+      "0": {
+        "file_type": 5,
+        "file_name": "4_0000.gim",
+        "file_length": 2316,
+        "file_comp": 2
+      },
+      "1": {
+        "file_type": 5,
+        "file_name": "4_0001.gim",
+        "file_length": 3604,
+        "file_comp": 2
+      },
+      "2": {
+        "file_type": 5,
+        "file_name": "4_0002.gim",
+        "file_length": 2316,
+        "file_comp": 2
+      },
+      "3": {
+        "file_type": 5,
+        "file_name": "4_0003.gim",
+        "file_length": 3604,
+        "file_comp": 2
+      }
+    }
+  },
+  "background_mode": 8
+}
